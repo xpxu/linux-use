@@ -1,4 +1,4 @@
-### 1. Active Internet connections & Active UNIX domain sockets
+### 1. netstat: Active Internet connections & Active UNIX domain sockets
 
 **KEYWORD : UDS(UNIX DOMAIN SOCKETS)**
 
