@@ -17,6 +17,21 @@ example：
     rwsrw-r-- 表示有setuid标志
     rwxrwsrw- 表示有setgid标志
     rwxrw-rwt 表示有sticky标志
+    
+    chmod 4777是设sid
+    chmod 2777是设置gid
+    chmod 1777是设sticky
+    
+    # 用数值设定特殊权限，需要4位8进制数，第一个表示特殊权限，后三位表示基本权限。第一位8进制含义如下
+    0: 不设置特殊权限
+    1: 只设置sticky
+    2 : 只设置SGID
+    3: 只设置SGID和sticky
+    4 : 只设置SUID
+    5 : 只设置SUID和sticky
+    6 : 只设置SUID和SGID
+    7 : 设置3种权限
+
 * setuid
 
 >chmod u+s temp -- 为temp文件加上setuid标志. (setuid,设置uid，只对文件有效)
