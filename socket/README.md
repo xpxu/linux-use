@@ -1,5 +1,7 @@
 ### 1. Active Internet connections & Active UNIX domain sockets
 
+**KEYWORD : UDS(UNIX DOMAIN SOCKETS)**
+
 #### [查看](http://www.jb51.net/LINUXjishu/152405.html)
 ```
 [root@localhost ~]# netstat
