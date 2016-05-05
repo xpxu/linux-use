@@ -5,7 +5,7 @@ NOTES
 ##### 1. /bin/sh -c *cmd* *parameter*
 
 含义：从-c 后读入命令，用sh来执行。
-示例： /bin/sh -c cat /etc/log.conf
+示例：/bin/sh -c cat /etc/log.conf
 
 ##### 2. stick bit
 stciky一般只用在目录上，用在文件上起不到什么作用。
