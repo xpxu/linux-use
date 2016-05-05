@@ -1,8 +1,8 @@
 ### 1. yum与rpm的比较
 
 ```
-yum和rpm都可以用来安装rpm包，但是rpm不能处理安装包时的依赖问题。而yum可以解决这个问题。
-可以说，yum是rpm的加强版
+yum: client for yum server
+rpm: rpm manager in local machine 
 ```
 
 
