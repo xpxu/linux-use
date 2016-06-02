@@ -31,3 +31,4 @@ rpm -Uhv http://apt.sw.be/packages/rpmforge-release/rpmforge-release-0.3.6-1.el5
     ```
 
 * yum repolist enabled 列出enabled 的yum repo.
+
